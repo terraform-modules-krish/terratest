@@ -6,7 +6,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 	"golang.org/x/oauth2/google"
 	compute "google.golang.org/api/compute/v1"
 )
