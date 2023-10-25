@@ -4,7 +4,7 @@ package terratest
 import (
 	"testing"
 	"fmt"
-	"github.com/gruntwork-io/terratest/util"
+	"github.com/terraform-modules-krish/terratest/util"
 )
 
 func TestCreateRandomResourceCollectionOptions(t *testing.T) {
