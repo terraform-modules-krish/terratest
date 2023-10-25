@@ -1,8 +1,8 @@
 package aws
 
 import (
-	"github.com/gruntwork-io/terratest/util"
-	"github.com/gruntwork-io/terratest/log"
+	"github.com/terraform-modules-krish/terratest/util"
+	"github.com/terraform-modules-krish/terratest/log"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
