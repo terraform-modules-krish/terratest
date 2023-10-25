@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/terraform-modules-krish/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/retry"
 	"github.com/magiconair/properties/assert"
 	"google.golang.org/api/compute/v1"
 )
