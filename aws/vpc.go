@@ -4,7 +4,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/aws"
 	"errors"
-	"github.com/gruntwork-io/terratest/util"
+	"github.com/terraform-modules-krish/terratest/util"
 )
 
 var VpcIdFilterName = "vpc-id"

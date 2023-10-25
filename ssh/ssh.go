@@ -1,9 +1,9 @@
 package ssh
 
 import (
-	"github.com/gruntwork-io/terratest"
+	"github.com/terraform-modules-krish/terratest"
 	"log"
-	"github.com/gruntwork-io/terratest/shell"
+	"github.com/terraform-modules-krish/terratest/shell"
 	"errors"
 	"strconv"
 	"io/ioutil"
