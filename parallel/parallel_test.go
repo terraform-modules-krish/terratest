@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 	"log"
-	terralog "github.com/gruntwork-io/terratest/log"
+	terralog "github.com/terraform-modules-krish/terratest/log"
 	"strconv"
 	"fmt"
 	"errors"
