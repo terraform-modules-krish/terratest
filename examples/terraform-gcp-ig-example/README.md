@@ -4,12 +4,12 @@ This folder contains a simple Terraform configuration that deploys resources in 
 how you can use Terratest to write automated tests for your GCP Terraform code. This module deploys an [Instance Group](
 https://cloud.google.com/compute/docs/instance-groups/).
 
-Check out [test/terraform_gcp_ig_example_test.go](/test/terraform_gcp_ig_example_test.go) to see how you can write
+Check out [test/terraform_gcp_ig_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.19.6/test/terraform_gcp_ig_example_test.go) to see how you can write
 automated tests for this module.
 
 Note that the Instance Group in this module doesn't actually do anything; it just runs a cluster of vanilla Ubuntu 16.04
 Images for demonstration purposes. For slightly more complicated, real-world examples of Terraform modules, see
-[terraform-http-example](/examples/terraform-http-example) and [terraform-ssh-example](/examples/terraform-ssh-example).
+[terraform-http-example](https://github.com/terraform-modules-krish/terratest/blob/v0.19.6/examples/terraform-http-example) and [terraform-ssh-example](https://github.com/terraform-modules-krish/terratest/blob/v0.19.6/examples/terraform-ssh-example).
 
 **WARNING**: This module and the automated tests for it deploy real resources into your GCP account which can cost you
 money. By launching multiple Instances as part of an Instance Group, these resources may go beyond the [GCP Free Tier](
