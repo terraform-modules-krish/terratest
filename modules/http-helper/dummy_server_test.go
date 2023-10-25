@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
 )
 
