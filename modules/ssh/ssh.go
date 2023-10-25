@@ -13,7 +13,7 @@ import (
 
 	"path/filepath"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 	"golang.org/x/crypto/ssh"
 )
 
