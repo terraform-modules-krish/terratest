@@ -1,12 +1,12 @@
 package k8s
 
 import (
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/stretchr/testify/require"
 	authv1 "k8s.io/api/authorization/v1"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 // CanIDo returns whether or not the provided action is allowed by the client configured by the provided kubectl option.
