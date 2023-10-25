@@ -16,8 +16,8 @@ exposes it. This chart requires the `containerImageRepo` and `containerImageTag`
 
 See the corresponding terratest code for an example of how to test this chart:
 
-- [helm_basic_example_template_test.go](/test/helm_basic_example_template_test.go): the template tests for this chart.
-- [helm_basic_example_integration_test.go](/test/helm_basic_example_integration_test.go): the integration test for this
+- [helm_basic_example_template_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.17.1/test/helm_basic_example_template_test.go): the template tests for this chart.
+- [helm_basic_example_integration_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.17.1/test/helm_basic_example_integration_test.go): the integration test for this
   chart. This test will deploy the Helm Chart and verify the `Service` endpoint.
 
 ## Running automated tests against this Helm Chart
