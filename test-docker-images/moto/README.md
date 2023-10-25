@@ -18,7 +18,7 @@ no actual VM created, or other actual resource created.
 
 ### Motivation
 
-As part of writing [Unit Tests with Terratest](/README.md#unit-tests), we need a way to run our services in a Docker
+As part of writing [Unit Tests with Terratest](https://github.com/terraform-modules-krish/terratest/blob/v0.28.8/README.md#unit-tests), we need a way to run our services in a Docker
 container. But this presents a new challenge: Almost all our cluster-based setups query the AWS APIs to obtain metadata
 about the EC2 Instance on which they're running. How can we simulate these API calls in a local environment? Moto seems
 to meet this use case perfectly.
