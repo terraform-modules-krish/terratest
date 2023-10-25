@@ -5,10 +5,10 @@ import (
 	"testing"
 	"encoding/json"
 	"io/ioutil"
-	"github.com/gruntwork-io/terratest"
+	"github.com/terraform-modules-krish/terratest"
 	"path/filepath"
 	"log"
-	"github.com/gruntwork-io/terratest/files"
+	"github.com/terraform-modules-krish/terratest/files"
 	"fmt"
 	"strings"
 )

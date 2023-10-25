@@ -4,7 +4,7 @@ package terraform
 import (
 	"log"
 
-	"github.com/gruntwork-io/terratest/shell"
+	"github.com/terraform-modules-krish/terratest/shell"
 )
 
 // Call Terraform Apply on the template at "templatePath" with the given "vars"
