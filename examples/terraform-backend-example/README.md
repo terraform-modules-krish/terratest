@@ -4,7 +4,7 @@ This folder contains a simple Terraform module that demonstrates how you can use
 Backend](https://www.terraform.io/docs/backends/) at test time. This module doesn't really do anything other than set 
 up S3 as a backend, and allow Terratest to fill in that backend's configuration.
 
-Check out [test/terraform_backend_example_test.go](/test/terraform_backend_example_test.go) to see how you can write
+Check out [test/terraform_backend_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.15.11/test/terraform_backend_example_test.go) to see how you can write
 automated tests for this module.
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
