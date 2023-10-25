@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/gruntwork-cli/entrypoint"
-	"github.com/gruntwork-io/terratest/modules/aws"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/entrypoint"
+	"github.com/terraform-modules-krish/terratest/modules/aws"
 	"github.com/urfave/cli"
 )
 
