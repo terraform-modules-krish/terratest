@@ -4,7 +4,7 @@ import (
 	"log"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/terratest/util"
+	"github.com/terraform-modules-krish/terratest/util"
 	"fmt"
 	"time"
 	"encoding/base64"

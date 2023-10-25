@@ -1,8 +1,8 @@
 package terratest
 
 import (
-	"github.com/gruntwork-io/terratest/terraform"
-	"github.com/gruntwork-io/terratest/log"
+	"github.com/terraform-modules-krish/terratest/terraform"
+	"github.com/terraform-modules-krish/terratest/log"
 	"fmt"
 )
 
