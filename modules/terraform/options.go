@@ -3,7 +3,7 @@ package terraform
 import (
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/ssh"
+	"github.com/terraform-modules-krish/terratest/modules/ssh"
 )
 
 // Options for running Terraform commands
