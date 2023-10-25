@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/gruntwork-cli/files"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/files"
 	junitformatter "github.com/jstemmer/go-junit-report/formatter"
 	junitparser "github.com/jstemmer/go-junit-report/parser"
 	"github.com/sirupsen/logrus"

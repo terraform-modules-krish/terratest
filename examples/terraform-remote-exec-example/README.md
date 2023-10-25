@@ -4,7 +4,7 @@ This folder contains a simple Terraform module that deploys resources in [AWS](h
 how you can use Terratest to test modules which use `remote-exec`, `files`, and other ssh-based 
 [provisioners](https://www.terraform.io/docs/provisioners/index.html).
 
-Check out [test/terraform_remote_exec_example_test.go](/test/terraform_remote_exec_example_test.go) to see how you can write
+Check out [test/terraform_remote_exec_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.26.2/test/terraform_remote_exec_example_test.go) to see how you can write
 automated tests for this module.
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
