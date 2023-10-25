@@ -1,9 +1,9 @@
 package helm
 
 import (
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
+	"github.com/terraform-modules-krish/terratest/modules/shell"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 // getCommonArgs extracts common helm options. In this case, these are:

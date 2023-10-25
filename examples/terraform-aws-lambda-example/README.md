@@ -4,7 +4,7 @@ This folder contains a Terraform module to demonstrate how you can use Terratest
 for your Terraform code. This module takes in an input variable called `function_name`, and uses the function name as
 an identifier for the lambda and associated resources (e.g. IAM role).
 
-Check out [test/terraform_aws_lambda_example_test.go](/test/terraform_aws_lambda_example_test.go) to see how you can write
+Check out [test/terraform_aws_lambda_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.28.12/test/terraform_aws_lambda_example_test.go) to see how you can write
 automated tests for this simple module.
 
 The function that this module creates is a simple one whose input can cause it to error or echo messages it receives.
