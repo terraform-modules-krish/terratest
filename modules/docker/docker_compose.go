@@ -1,8 +1,8 @@
 package docker
 
 import (
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/shell"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 // Options are Docker options.
