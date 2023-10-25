@@ -4,7 +4,7 @@ This folder contains a simple Terraform module that deploys resources in [AWS](h
 how you can use Terratest to write automated tests for your AWS Terraform code. This module deploys an [EC2
 Instance](https://aws.amazon.com/ec2/) which runs a web server that responds with "Hello, World!" on port 8080.
 
-Check out [test/terraform_aws_hello_world_example_test.go](/test/terraform_aws_hello_world_example_test.go) to see how 
+Check out [test/terraform_aws_hello_world_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.28.6/test/terraform_aws_hello_world_example_test.go) to see how 
 you can write automated tests for this module.
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you

@@ -26,9 +26,9 @@ types of infrastructure code you can test (e.g., Packer, Kubernetes, etc).
 
 1. Create an `examples` and `test` folder.
 
-1. Copy all the files from the [basic terraform example](https://github.com/gruntwork-io/terratest/tree/master/examples/terraform-basic-example/) into the `examples` folder.
+1. Copy all the files from the [basic terraform example](https://github.com/terraform-modules-krish/terratest/tree/master/examples/terraform-basic-example/) into the `examples` folder.
 
-1. Copy the [basic terraform example test](https://github.com/gruntwork-io/terratest/blob/master/test/terraform_basic_example_test.go) into the `test` folder.
+1. Copy the [basic terraform example test](https://github.com/terraform-modules-krish/terratest/blob/master/test/terraform_basic_example_test.go) into the `test` folder.
 
 1. To configure dependencies, run:
 
@@ -235,7 +235,7 @@ we expect, and runs `kubectly delete` at the end. You run this test with `go tes
 
 ## Give it a shot!
 
-The above is just a small taste of what you can do with [Terratest](https://github.com/gruntwork-io/terratest). To 
+The above is just a small taste of what you can do with [Terratest](https://github.com/terraform-modules-krish/terratest). To 
 learn more:
 
 1. Check out the [examples]({{site.baseurl}}/examples/) and the corresponding automated tests for those examples for fully working (and tested!) sample code.
