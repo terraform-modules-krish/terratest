@@ -3,7 +3,7 @@ package util
 import (
 	"fmt"
 	"time"
-	"github.com/gruntwork-io/terratest/parallel"
+	"github.com/terraform-modules-krish/terratest/parallel"
 	"log"
 )
 
