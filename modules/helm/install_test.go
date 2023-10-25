@@ -15,9 +15,9 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
+	http_helper "github.com/terraform-modules-krish/terratest/modules/http-helper"
+	"github.com/terraform-modules-krish/terratest/modules/k8s"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 )
 
 // Test that we can install a remote chart (e.g stable/chartmuseum)
