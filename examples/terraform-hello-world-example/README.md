@@ -3,12 +3,12 @@
 This folder contains the simplest possible Terraform module—one that just outputs "Hello, World"—to demonstrate how you 
 can use Terratest to write automated tests for your Terraform code. 
 
-Check out [test/terraform_hello_world_example_test.go](/test/terraform_hello_world_example_test.go) to see how you can 
+Check out [test/terraform_hello_world_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.27.4/test/terraform_hello_world_example_test.go) to see how you can 
 write automated tests for this simple module.
 
 Note that this module doesn't do anything useful; it's just here to demonstrate the simplest usage pattern for
 Terratest. For a slightly more complicated example of a Terraform module and the corresponding tests, see
-[terraform-basic-example](/examples/terraform-basic-example).
+[terraform-basic-example](https://github.com/terraform-modules-krish/terratest/blob/v0.27.4/examples/terraform-basic-example).
 
 
 
