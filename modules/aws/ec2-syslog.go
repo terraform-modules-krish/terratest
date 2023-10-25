@@ -7,8 +7,8 @@ import (
 	"time"
 	"encoding/base64"
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/retry"
 )
 
 // Get the syslog for the Instance with the given ID in the given region. This should be available ~1 minute after an
