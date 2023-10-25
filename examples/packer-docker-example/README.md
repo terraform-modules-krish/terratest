@@ -6,12 +6,12 @@ This template _also_ creates a Docker image with the same web app installed, and
 for running that Docker image. These allow you to test your Packer template completely locally, without having to
 deploy to AWS.
 
-Check out [test/packer_docker_example_test.go](/test/packer_docker_example_test.go) to see how you can write
+Check out [test/packer_docker_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.15.12/test/packer_docker_example_test.go) to see how you can write
 automated tests for this simple template.
 
 The Docker-based tests in this folder are in some sense "unit tests" for the Packer template. To see an example of
 "integration tests" that deploy the AMI to AWS, check out the
-[terraform-packer-example](/examples/terraform-packer-example).
+[terraform-packer-example](https://github.com/terraform-modules-krish/terratest/blob/v0.15.12/examples/terraform-packer-example).
 
 
 
@@ -53,4 +53,4 @@ The Docker-based tests in this folder are in some sense "unit tests" for the Pac
 
 ## Running automated tests in AWS against this Packer template
 
-See [terraform-packer-example](/examples/terraform-packer-example).
+See [terraform-packer-example](https://github.com/terraform-modules-krish/terratest/blob/v0.15.12/examples/terraform-packer-example).
