@@ -3,8 +3,8 @@ package terratest
 import (
 	"errors"
 	"time"
-	"github.com/gruntwork-io/terratest/log"
-	"github.com/gruntwork-io/terratest/http"
+	"github.com/terraform-modules-krish/terratest/log"
+	"github.com/terraform-modules-krish/terratest/http"
 )
 
 // A helper function to check if a URL returns a 200 OK with the expectedResponse as a body. This function reads the
