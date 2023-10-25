@@ -1,8 +1,8 @@
 package gcp
 
 import (
-	"github.com/gruntwork-io/terratest/modules/environment"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/environment"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 var credsEnvVars = []string{

@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/aws"
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/terraform-modules-krish/terratest/modules/aws"
+	http_helper "github.com/terraform-modules-krish/terratest/modules/http-helper"
+	"github.com/terraform-modules-krish/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/terraform"
 )
 
 // An example of how to test the Terraform module in examples/terraform-http-example using Terratest.

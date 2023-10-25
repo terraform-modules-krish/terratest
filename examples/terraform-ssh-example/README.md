@@ -5,12 +5,12 @@ how you can use Terratest to write automated tests for your AWS Terraform code. 
 Instances](https://aws.amazon.com/ec2/), one with a public IP, one with a private IP, in the AWS region specified in
 the `aws_region` variable. The EC2 Instances allow SSH requests on the port specified by the `ssh_port` variable.
 
-Check out [test/terraform_ssh_example_test.go](/test/terraform_ssh_example_test.go) to see how you can write
+Check out [test/terraform_ssh_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.28.1/test/terraform_ssh_example_test.go) to see how you can write
 automated tests for this module.
 
 Note that the example in this module is still fairly simplified, as the EC2 Instance doesn't do a whole lot! For a more
 complicated, real-world, end-to-end example of a Terraform module and web server, see
-[terraform-packer-example](/examples/terraform-packer-example).
+[terraform-packer-example](https://github.com/terraform-modules-krish/terratest/blob/v0.28.1/examples/terraform-packer-example).
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
 money. The resources are all part of the [AWS Free Tier](https://aws.amazon.com/free/), so if you haven't used that up,
