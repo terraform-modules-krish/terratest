@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
+	"github.com/terraform-modules-krish/terratest/modules/collections"
 )
 
 // TerraformDefaultLockingStatus - The terratest default command lock status (backwards compatibility)
