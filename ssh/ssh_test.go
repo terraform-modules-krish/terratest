@@ -2,12 +2,12 @@ package ssh
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terratest"
+	"github.com/terraform-modules-krish/terratest"
 	"fmt"
-	terralog "github.com/gruntwork-io/terratest/log"
+	terralog "github.com/terraform-modules-krish/terratest/log"
 	"strings"
 	"log"
-	"github.com/gruntwork-io/terratest/util"
+	"github.com/terraform-modules-krish/terratest/util"
 	"time"
 )
 

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/log"
-	"github.com/gruntwork-io/terratest/util"
+	"github.com/terraform-modules-krish/terratest/log"
+	"github.com/terraform-modules-krish/terratest/util"
 )
 
 func TestCreateAndDestroyS3Bucket(t *testing.T) {
