@@ -36,7 +36,7 @@ This will:
 - Create a `report.xml` file containing a Junit XML file of the test summary (so it can be integrated in your CI).
 
 The output can be integrated in your CI engine to further enhance the debugging experience. See Terratest's own
-[circleci configuration](https://github.com/gruntwork-io/terratest/blob/master/.circleci/config.yml) for an example of how to integrate the utility with CircleCI. This
+[circleci configuration](https://github.com/terraform-modules-krish/terratest/blob/master/.circleci/config.yml) for an example of how to integrate the utility with CircleCI. This
 provides for each build:
 
 - A test summary view showing you which tests failed:
@@ -66,11 +66,11 @@ chmod +x terratest_log_parser
 sudo mv terratest_log_parser /usr/local/bin
 ```
 
-Alternatively, you can use [the gruntwork-installer](https://github.com/gruntwork-io/gruntwork-installer), which will do
+Alternatively, you can use [the gruntwork-installer](https://github.com/terraform-modules-krish/gruntwork-installer), which will do
 the above steps and automatically select the right binary for your platform:
 
 ```bash
-gruntwork-install --binary-name 'terratest_log_parser' --repo 'https://github.com/gruntwork-io/terratest' --tag 'v0.13.13'
+gruntwork-install --binary-name 'terratest_log_parser' --repo 'https://github.com/terraform-modules-krish/terratest' --tag 'v0.13.13'
 ```
 
 The following binaries are currently available with `terratest`:

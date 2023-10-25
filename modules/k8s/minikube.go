@@ -1,6 +1,6 @@
 package k8s
 
-import "github.com/gruntwork-io/terratest/modules/testing"
+import "github.com/terraform-modules-krish/terratest/modules/testing"
 
 // IsMinikubeE returns true if the underlying kubernetes cluster is Minikube. This is determined by getting the
 // associated nodes and checking if:
