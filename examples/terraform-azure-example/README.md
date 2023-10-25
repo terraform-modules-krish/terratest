@@ -5,12 +5,12 @@ how you can use Terratest to write automated tests for your Azure Terraform code
 Machine](https://azure.microsoft.com/en-us/services/virtual-machines/) and gives that VM a `Name` tag with the value specified in the
 `vm_name` variable.
 
-Check out [test/terraform_azure_example_test.go](/test/terraform_azure_example_test.go) to see how you can write
+Check out [test/terraform_azure_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.18.5/test/terraform_azure_example_test.go) to see how you can write
 automated tests for this module.
 
 Note that the Virtual Machine in this module doesn't actually do anything; it just runs a Vanilla Ubuntu 16.04 image for
 demonstration purposes. For slightly more complicated, real-world examples of Terraform modules, see
-[terraform-http-example](/examples/terraform-http-example) and [terraform-ssh-example](/examples/terraform-ssh-example).
+[terraform-http-example](https://github.com/terraform-modules-krish/terratest/blob/v0.18.5/examples/terraform-http-example) and [terraform-ssh-example](https://github.com/terraform-modules-krish/terratest/blob/v0.18.5/examples/terraform-ssh-example).
 
 **WARNING**: This module and the automated tests for it deploy real resources into your Azure account which can cost you
 money. The resources are all part of the [Azure Free Account](https://azure.microsoft.com/en-us/free/), so if you haven't used that up,
