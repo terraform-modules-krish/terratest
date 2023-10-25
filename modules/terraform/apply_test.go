@@ -5,7 +5,7 @@ import (
 
 	"github.com/magiconair/properties/assert"
 
-	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/terraform-modules-krish/terratest/modules/files"
 	"github.com/stretchr/testify/require"
 )
 
