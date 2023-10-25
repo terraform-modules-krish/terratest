@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/collections"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 )
 
 // Reference for region list: https://azure.microsoft.com/en-us/global-infrastructure/locations/
