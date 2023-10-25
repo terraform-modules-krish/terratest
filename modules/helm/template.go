@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 
 	"github.com/ghodss/yaml"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/files"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 // RenderTemplate runs `helm template` to render the template given the provided options and returns stdout/stderr from
