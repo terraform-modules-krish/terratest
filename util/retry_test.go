@@ -3,7 +3,7 @@ package util
 import (
 	"testing"
 	"time"
-	terralog "github.com/gruntwork-io/terratest/log"
+	terralog "github.com/terraform-modules-krish/terratest/log"
 	"fmt"
 )
 
