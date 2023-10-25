@@ -3,8 +3,8 @@ package terratest
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/terratest/aws"
-	"github.com/gruntwork-io/terratest/util"
+	"github.com/terraform-modules-krish/terratest/aws"
+	"github.com/terraform-modules-krish/terratest/util"
 	"strings"
 )
 
