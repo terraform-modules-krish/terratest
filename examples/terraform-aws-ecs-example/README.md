@@ -6,7 +6,7 @@ to demonstrate how you can use Terratest to write automated tests for your AWS T
 This module registers a task definition with [AWS Fargate](https://aws.amazon.com/fargate/) launch type and associates it with a [service](https://docs.aws.amazon.com/AmazonECS/latest/userguide/ecs_services.html)
 to run and maintain a specified number of instances.
 
-Check out [test/terraform_aws_ecs_example_test.go](/test/terraform_aws_ecs_example_test.go) to see how you can write
+Check out [test/terraform_aws_ecs_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.18.1/test/terraform_aws_ecs_example_test.go) to see how you can write
 automated tests for this module and validate the configuration of the parameters and options.
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
