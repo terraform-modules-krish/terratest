@@ -3,7 +3,7 @@
 This folder contains the most minimal Kubernetes resource config—which deploys a simple webapp that responds with
 "Hello, World!"—to demonstrate how you can use Terratest to write automated tests for Kubernetes.
 
-Check out [test/kubernetes_hello_world_example_test.go](/test/kubernetes_hello_world_example_test.go) to see how you can 
+Check out [test/kubernetes_hello_world_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.26.1/test/kubernetes_hello_world_example_test.go) to see how you can 
 write automated tests for this simple resource config.
 
 

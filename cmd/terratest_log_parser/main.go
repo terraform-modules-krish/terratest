@@ -39,10 +39,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gruntwork-io/gruntwork-cli/entrypoint"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/gruntwork-cli/logging"
-	"github.com/gruntwork-io/terratest/modules/logger/parser"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/entrypoint"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/logging"
+	"github.com/terraform-modules-krish/terratest/modules/logger/parser"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

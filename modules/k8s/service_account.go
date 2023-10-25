@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/stretchr/testify/require"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/tools/clientcmd/api"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/retry"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 // GetServiceAccount returns a Kubernetes service account resource in the provided namespace with the given name. The
