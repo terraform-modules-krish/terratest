@@ -1,3 +1,22 @@
+***WARNING: THIS REPO IS AN AUTO-GENERATED COPY.*** *This repo has been copied from [Gruntwork’s](https://gruntwork.io/) GitHub repositories so that you can consume it from your company’s own internal Git repositories. This copy is automatically created and updated by the `repo-copier` CLI tool. If you need to make changes to this repo, you should make the changes in a separate fork, and NOT make changes directly in this repo, as otherwise, the `repo-copier` will overwrite your changes! Please see the `repo-copier` [documentation](https://github.com/terraform-modules-krish/repo-copier) for more information on how the code is copied, how cross-references are updated, how the changelog is handled, etc.*
+
+***
+
+_You may find it valuable to view the following resources in the original repo. If these links give you a 404, visit https://app.gruntwork.io to gain access or email support@gruntwork.io if you need assistance._
+
+[Home Page](https://github.com/gruntwork-io/terratest/) |
+[Pull Requests](https://github.com/gruntwork-io/terratest/pulls) |
+[Issues](https://github.com/gruntwork-io/terratest/issues) |
+[Releases and Assets](https://github.com/gruntwork-io/terratest/releases)
+
+_Alternatively, you can view a copied version of the resources listed above._
+
+[Pull Requests](https://github.com/terraform-modules-krish/terratest/blob/master/.github/PULL_REQUESTS.md) |
+[Issues](https://github.com/terraform-modules-krish/terratest/blob/master/.github/ISSUES.md) |
+[ChangeLog](https://github.com/terraform-modules-krish/terratest/blob/master/.github/CHANGELOG.md)
+
+***
+
 # Terratest
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/gruntwork-io/terratest)](https://goreportcard.com/report/github.com/gruntwork-io/terratest)
@@ -81,39 +100,39 @@ go get github.com/gruntwork-io/terratest/modules/terraform
 
 The best way to learn how to use Terratest is through examples.
 
-First, check out the [examples folder](/examples) for different types of infrastructure code you may want to test,
+First, check out the [examples folder](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/examples) for different types of infrastructure code you may want to test,
 such as:
 
-1.  [Basic Terraform Example](/examples/terraform-basic-example): A simple "Hello, World" Terraform configuration.
-1.  [HTTP Terraform Example](/examples/terraform-http-example): A more complicated Terraform configuration that deploys
+1.  [Basic Terraform Example](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/examples/terraform-basic-example): A simple "Hello, World" Terraform configuration.
+1.  [HTTP Terraform Example](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/examples/terraform-http-example): A more complicated Terraform configuration that deploys
     a simple web server that responds to HTTP requests in AWS.
-1.  [Basic Packer Example](/examples/packer-basic-example): A simple Packer template for building an Amazon Machine
+1.  [Basic Packer Example](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/examples/packer-basic-example): A simple Packer template for building an Amazon Machine
     Image (AMI) or Google Cloud Platform Compute Image.
-1.  [Terraform Packer Example](/examples/terraform-packer-example): A more complicated example that shows how to use
+1.  [Terraform Packer Example](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/examples/terraform-packer-example): A more complicated example that shows how to use
     Packer to build an AMI with a web server installed and deploy that AMI in AWS using Terraform.
-1.  [Terraform GCP Example](/examples/terraform-gcp-example): A simple Terraform configuration that creates a GCP Compute Instance and Storage Bucket.
-1.  [Terraform remote-exec Example](/examples/terraform-remote-exec-example): A terraform configuration that creates and 
+1.  [Terraform GCP Example](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/examples/terraform-gcp-example): A simple Terraform configuration that creates a GCP Compute Instance and Storage Bucket.
+1.  [Terraform remote-exec Example](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/examples/terraform-remote-exec-example): A terraform configuration that creates and 
     AWS instance and then uses `remote-exec` to provision it.
 
-Next, head over to the [test folder](/test) to see how you can use Terraform to test each of these examples:
+Next, head over to the [test folder](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test) to see how you can use Terraform to test each of these examples:
 
-1.  [terraform_basic_example_test.go](/test/terraform_basic_example_test.go): Use Terratest to run `terraform apply` on
+1.  [terraform_basic_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test/terraform_basic_example_test.go): Use Terratest to run `terraform apply` on
     the Basic Terraform Example and verify you get the expected outputs.
-1.  [terraform_http_example_test.go](/test/terraform_http_example_test.go): Use Terratest to run `terraform apply` on
+1.  [terraform_http_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test/terraform_http_example_test.go): Use Terratest to run `terraform apply` on
     the HTTP Terraform Example to deploy the web server, make HTTP requests to the web server to check that it is
     working correctly, and run `terraform destroy` to undeploy the web server.
-1.  [packer_basic_example_test.go](/test/packer_basic_example_test.go): Use Terratest to run `packer build` to build an
+1.  [packer_basic_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test/packer_basic_example_test.go): Use Terratest to run `packer build` to build an
     AMI and then use the AWS APIs to delete that AMI.
-1.  [packer_gcp_basic_example_test.go](/test/packer_gcp_basic_example_test.go): Use Terratest to run `packer build`
+1.  [packer_gcp_basic_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test/packer_gcp_basic_example_test.go): Use Terratest to run `packer build`
     to build a Google Cloud Platform Compute Image and then use the GCP APIs to delete that image.
-1.  [terraform_packer_example_test.go](/test/terraform_packer_example_test.go): Use Terratest to run `packer build` to
+1.  [terraform_packer_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test/terraform_packer_example_test.go): Use Terratest to run `packer build` to
     build an AMI with a web server installed, deploy that AMI in AWS by running `terraform apply`, make HTTP requests to
     the web server to check that it is working correctly, and run `terraform destroy` to undeploy the web server.
-1.  [terraform_gcp_example_test.go](/test/terraform_gcp_example_test.go): Use Terratest to run `terraform apply` on
+1.  [terraform_gcp_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test/terraform_gcp_example_test.go): Use Terratest to run `terraform apply` on
     the Terraform GCP Example and verify you get the expected outputs.
-1.  [terraform_remote_exec_example_test.go](/test/terraform_remote_exec_example_test.go): Use Terratest to run 
+1.  [terraform_remote_exec_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test/terraform_remote_exec_example_test.go): Use Terratest to run 
     `terraform apply` and then remotely provision the instance while using a custom SSH agent managed by Terratest
-1.  [terraform_scp_example_test.go](/test/terraform_scp_example_test.go): Use Terratest to simplify copying resources
+1.  [terraform_scp_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test/terraform_scp_example_test.go): Use Terratest to simplify copying resources
     like config files and logs from deployed EC2 Instances. This is especially useful for getting a snapshot of the
     state of a deployment when a test fails.
     
@@ -132,7 +151,7 @@ modules:
 ## Package by package overview
 
 Now that you've had a chance to browse the examples and their tests, here's an overview of the packages you'll find in
-Terratest's [modules folder](/modules) and how they can help you test different types infrastructure:
+Terratest's [modules folder](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/modules) and how they can help you test different types infrastructure:
 
 | Package            | Description                                                                                                                                                                                                                                                                                          |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -144,7 +163,7 @@ Terratest's [modules folder](/modules) and how they can help you test different 
 | **git**            | Functions for working with Git. Examples: get the name of the current Git branch.                                                                                                                                                                                                                    |
 | **http-helper**    | Functions for making HTTP requests. Examples: make an HTTP request to a URL and check the status code and body contain the expected values, run a simple HTTP server locally.                                                                                                                        |
 | **logger**         | A replacement for Go's `t.Log` and `t.Logf` that writes the logs to `stdout` immediately, rather than buffering them until the very end of the test. This makes debugging and iterating easier.                                                                                                      |
-| **logger/parser**  | Includes functions for parsing out interleaved go test output and piecing out the individual test logs. Used by the [terratest_log_parser](/cmd/terratest_log_parser) command.                                                                                                                       |
+| **logger/parser**  | Includes functions for parsing out interleaved go test output and piecing out the individual test logs. Used by the [terratest_log_parser](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/cmd/terratest_log_parser) command.                                                                                                                       |
 | **packer**         | Functions for working with Packer. Examples: run a Packer build and return the ID of the artifact that was created.                                                                                                                                                                                  |
 | **random**         | Functions for generating random data. Examples: generate a unique ID that can be used to namespace resources so multiple tests running in parallel don't clash.                                                                                                                                      |
 | **retry**          | Functions for retrying actions. Examples: retry a function up to a maximum number of retries, retry a function until a stop function is called, wait up to a certain timeout for a function to complete. These are especially useful when working with distributed systems and eventual consistency. |
@@ -154,7 +173,7 @@ Terratest's [modules folder](/modules) and how they can help you test different 
 | **test_structure** | Functions for structuring your tests to speed up local iteration. Examples: break up your tests into stages so that any stage can be skipped by setting an environment variable.                                                                                                                     |
 
 Terratest also ships with utility commands that can be used to help with debugging test failures in CI environments.
-Here is an overview of commands in Terratest's [cmd folder](/cmd) that are shipped with each release:
+Here is an overview of commands in Terratest's [cmd folder](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/cmd) that are shipped with each release:
 
 | Command                  | Description                                                                                                                                                                |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -257,7 +276,7 @@ checkServerWorks(t, options)
 
 Of course, despite your best efforts, occasionally cleanup will fail, perhaps due to the CI server going down, or a bug
 in your code, or a temporary network outage. To handle those cases, we run a tool called
-[cloud-nuke](https://github.com/gruntwork-io/cloud-nuke) in our test AWS account on a nightly basis to clean up any
+[cloud-nuke](https://github.com/terraform-modules-krish/cloud-nuke) in our test AWS account on a nightly basis to clean up any
 leftover resources.
 
 
@@ -320,16 +339,16 @@ This will:
 - Create a `report.xml` file containing a Junit XML file of the test summary (so it can be integrated in your CI).
 
 The output can be integrated in your CI engine to further enhance the debugging experience. See Terratest's own
-[circleci configuration](/.circleci/config.yml) for an example of how to integrate the utility with CircleCI. This
+[circleci configuration](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/.circleci/config.yml) for an example of how to integrate the utility with CircleCI. This
 provides for each build:
 
 - A test summary view showing you which tests failed:
 
-![CircleCI test summary](/_docs/images/circleci-test-summary.png)
+![CircleCI test summary](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/_docs/images/circleci-test-summary.png)
 
 - A snapshot of all the logs broken out by test:
 
-![CircleCI logs](/_docs/images/circleci-logs.png)
+![CircleCI logs](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/_docs/images/circleci-logs.png)
 
 You can download the compiled versions of the utility for your platform from the [Releases page](https://github.com/gruntwork-io/terratest/releases).
 
@@ -401,13 +420,13 @@ Here are some techniques we use with Docker:
 
 - If your script is used in a Packer template, add a [Docker
   builder](https://www.packer.io/docs/builders/docker.html) to the template so you can create a Docker image from the
-  same code. See the [Packer Docker Example](https://github.com/gruntwork-io/terratest/tree/master/examples/packer-docker-example) for working sample code.
+  same code. See the [Packer Docker Example](https://github.com/terraform-modules-krish/terratest/tree/master/examples/packer-docker-example) for working sample code.
 
 - We have prebuilt Docker images for major Linux distros that have many important dependencies (e.g., curl, vim,
-  tar, sudo) already installed. See the [test-docker-images folder](/test-docker-images) for more details.
+  tar, sudo) already installed. See the [test-docker-images folder](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test-docker-images) for more details.
 
 - Create a `docker-compose.yml` to make it easier to run your Docker image with all the ports, environment variables,
-  and other settings it needs. See the [Packer Docker Example](https://github.com/gruntwork-io/terratest/tree/master/examples/packer-docker-example) for working sample code.
+  and other settings it needs. See the [Packer Docker Example](https://github.com/terraform-modules-krish/terratest/tree/master/examples/packer-docker-example) for working sample code.
 
 - With scripts in Docker, you can replace _some_ real-world dependencies with mocks! One way to do this is to create
   some "mock scripts" and to bind-mount them in `docker-compose.yml` in a way that replaces the real dependency. For
@@ -430,7 +449,7 @@ each time you change a single line of code can be very slow.
 
 This is where Terratest's `test_structure` package comes in handy: it allows you to explicitly break up your tests into
 stages and to be able to disable any one of those stages simply by setting an environment variable. Check out the
-[terraform_packer_example_test.go](/test/terraform_packer_example_test.go) for working sample code.
+[terraform_packer_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.12/test/terraform_packer_example_test.go) for working sample code.
 
 
 
