@@ -3,7 +3,7 @@
 This folder contains the simplest possible Packer template—one that builds a Docker image with a text file that says
 "Hello, World"!—to demonstrate how you can use Terratest to write automated tests for your Packer templates. 
 
-Check out [test/packer_hello_world_example_test.go](/test/packer_hello_world_example_test.go) to see how you can write
+Check out [test/packer_hello_world_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.28.9/test/packer_hello_world_example_test.go) to see how you can write
 automated tests for this simple template.
 
 

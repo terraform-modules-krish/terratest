@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/rds"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 // GetAddressOfRdsInstance gets the address of the given RDS Instance in the given region.

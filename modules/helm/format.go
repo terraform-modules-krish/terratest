@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/gruntwork-io/gruntwork-cli/collections"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/collections"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/files"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 // formatSetValuesAsArgs formats the given values as command line args for helm using the given flag (e.g flags of

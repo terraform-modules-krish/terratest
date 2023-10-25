@@ -22,7 +22,7 @@ Here are some techniques we use with Docker:
   same code. See the [Packer Docker Example]({{ site.baseurl }}/examples/code-examples/packer-docker-example/) for working sample code.
 
 - We have prebuilt Docker images for major Linux distros that have many important dependencies (e.g., curl, vim,
-  tar, sudo) already installed. See the [test-docker-images folder](https://github.com/gruntwork-io/terratest/tree/master/test-docker-images) for more details.
+  tar, sudo) already installed. See the [test-docker-images folder](https://github.com/terraform-modules-krish/terratest/tree/master/test-docker-images) for more details.
 
 - Create a `docker-compose.yml` to make it easier to run your Docker image with all the ports, environment variables,
   and other settings it needs. See the [Packer Docker Example]({{ site.baseurl }}/examples/code-examples/packer-docker-example/) for working sample code.
