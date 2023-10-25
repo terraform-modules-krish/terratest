@@ -1,7 +1,7 @@
 package ssh
 
 import (
-	"github.com/gruntwork-io/terratest"
+	"github.com/terraform-modules-krish/terratest"
 	"log"
 	"golang.org/x/crypto/ssh"
 )
