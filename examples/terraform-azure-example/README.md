@@ -5,12 +5,12 @@ how you can use Terratest to write automated tests for your Azure Terraform code
 Machine](https://azure.microsoft.com/en-us/services/virtual-machines/) and gives that VM a `Name` tag with the value specified in the
 `vm_name` variable.
 
-Check out [test/terraform_azure_example_test.go](/test/terraform_azure_example_test.go) to see how you can write
+Check out [test/terraform_azure_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.28.0/test/terraform_azure_example_test.go) to see how you can write
 automated tests for this module.
 
 Note that the Virtual Machine in this module doesn't actually do anything; it just runs a Vanilla Ubuntu 16.04 image for
 demonstration purposes. For slightly more complicated, real-world examples of Terraform modules, see
-[terraform-http-example](/examples/terraform-http-example) and [terraform-ssh-example](/examples/terraform-ssh-example).
+[terraform-http-example](https://github.com/terraform-modules-krish/terratest/blob/v0.28.0/examples/terraform-http-example) and [terraform-ssh-example](https://github.com/terraform-modules-krish/terratest/blob/v0.28.0/examples/terraform-ssh-example).
 
 **WARNING**: This module and the automated tests for it deploy real resources into your Azure account which can cost you
 money. The resources are all part of the [Azure Free Account](https://azure.microsoft.com/en-us/free/), so if you haven't used that up,
@@ -35,19 +35,19 @@ it should be free, but you are completely responsible for all Azure charges.
 1. [Review environment variables](#review-environment-variables).
 1. Install [Golang](https://golang.org/) and make sure this code is checked out into your `GOPATH`.
 1. `cd test`
-1. Make sure [the azure-sdk-for-go versions match](#check-go-dependencies) in [/test/go.mod](/test/go.mod) and in [test/terraform_azure_example_test.go](/test/terraform_azure_example_test.go).
+1. Make sure [the azure-sdk-for-go versions match](#check-go-dependencies) in [/test/go.mod](https://github.com/terraform-modules-krish/terratest/blob/v0.28.0/test/go.mod) and in [test/terraform_azure_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.28.0/test/terraform_azure_example_test.go).
 1. `go build terraform_azure_example_test.go`
 1. `go test -v -run TestTerraformAzureExample`
 
 ## Check Go Dependencies
 
-Check that the `github.com/Azure/azure-sdk-for-go` version in your generated `go.mod` for this test matches the version in the terratest [go.mod](https://github.com/gruntwork-io/terratest/blob/master/go.mod) file.  
+Check that the `github.com/Azure/azure-sdk-for-go` version in your generated `go.mod` for this test matches the version in the terratest [go.mod](https://github.com/terraform-modules-krish/terratest/blob/master/go.mod) file.  
 
 > This was tested with **go1.14.1**.
 
 ### Check Azure-sdk-for-go version
 
-Let's make sure [go.mod](https://github.com/gruntwork-io/terratest/blob/master/go.mod) includes the appropriate [azure-sdk-for-go version](https://github.com/Azure/azure-sdk-for-go/releases/tag/v38.1.0):
+Let's make sure [go.mod](https://github.com/terraform-modules-krish/terratest/blob/master/go.mod) includes the appropriate [azure-sdk-for-go version](https://github.com/Azure/azure-sdk-for-go/releases/tag/v38.1.0):
 
 ```go
 require (
@@ -57,7 +57,7 @@ require (
 )
 ```
 
-We should check that [test/terraform_azure_example_test.go](/test/terraform_azure_example_test.go) includes the corresponding [azure-sdk-for-go package](https://github.com/Azure/azure-sdk-for-go/tree/master/services/compute/mgmt/2019-07-01/compute):
+We should check that [test/terraform_azure_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.28.0/test/terraform_azure_example_test.go) includes the corresponding [azure-sdk-for-go package](https://github.com/Azure/azure-sdk-for-go/tree/master/services/compute/mgmt/2019-07-01/compute):
 
 ```go
 import (
