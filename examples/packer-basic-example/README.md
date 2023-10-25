@@ -4,13 +4,13 @@ This folder contains a very simple Packer template to demonstrate how you can us
 for your Packer templates. The template just creates an up-to-date Ubuntu AMI by running `apt-get update` and
 `apt-get upgrade`.
 
-Check out [test/packer_basic_example_test.go](/test/packer_basic_example_test.go) to see how you can write
+Check out [test/packer_basic_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.24/test/packer_basic_example_test.go) to see how you can write
 automated tests for this simple template.
 
 Note that this template doesn't do anything useful; it's just here to demonstrate the simplest usage pattern for
 Terratest. For slightly more complicated, real-world examples of Packer templates and the corresponding tests, see
-[packer-docker-example](/examples/packer-docker-example) and
-[terraform-packer-example](/examples/terraform-packer-example).
+[packer-docker-example](https://github.com/terraform-modules-krish/terratest/blob/v0.13.24/examples/packer-docker-example) and
+[terraform-packer-example](https://github.com/terraform-modules-krish/terratest/blob/v0.13.24/examples/terraform-packer-example).
 
 
 
