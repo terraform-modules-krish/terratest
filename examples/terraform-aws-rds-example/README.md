@@ -4,7 +4,7 @@ This folder contains a simple Terraform module that deploys a database instance 
 to demonstrate how you can use Terratest to write automated tests for your AWS Terraform code. This module deploys an [RDS
 Instance](https://aws.amazon.com/rds/) and associates it with an option group and parameter group to customize it.
 
-Check out [test/terraform_aws_rds_example_test.go](/test/terraform_aws_rds_example_test.go) to see how you can write
+Check out [test/terraform_aws_rds_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.27.2/test/terraform_aws_rds_example_test.go) to see how you can write
 automated tests for this module and validate the configuration of the parameters and options.
 
 This module does not use the database instance created in any way. It can be used though to validate any combination of inputs
