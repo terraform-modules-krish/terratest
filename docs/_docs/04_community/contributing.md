@@ -107,7 +107,7 @@ Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.
 stays up to date and allows you to think through the problem at a high level before you get lost in the weeds of
 coding.
 
-The documentation is built with Jekyll and hosted on the Github Pages from `docs` folder on `master` branch. Check out [Terratest website](https://github.com/gruntwork-io/terratest/tree/master/docs#working-with-the-documentation) to learn more about working with the documentation.
+The documentation is built with Jekyll and hosted on the Github Pages from `docs` folder on `master` branch. Check out [Terratest website](https://github.com/terraform-modules-krish/terratest/tree/master/docs#working-with-the-documentation) to learn more about working with the documentation.
 
 ### Update the tests
 
@@ -115,7 +115,7 @@ We also recommend updating the automated tests *before* updating any code (see [
 Development](https://en.wikipedia.org/wiki/Test-driven_development)). That means you add or update a test case,
 verify that it's failing with a clear error message, and *then* make the code changes to get that test to pass. This
 ensures the tests stay up to date and verify all the functionality in this Module, including whatever new
-functionality you're adding in your contribution. Check out the [test](https://github.com/gruntwork-io/terratest/tree/master/test) folder for instructions on running the
+functionality you're adding in your contribution. Check out the [test](https://github.com/terraform-modules-krish/terratest/tree/master/test) folder for instructions on running the
 automated tests.
 
 ### Update the code
