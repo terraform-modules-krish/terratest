@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"strings"
 	"log"
-	"github.com/gruntwork-io/terratest/util"
+	"github.com/terraform-modules-krish/terratest/util"
 	"fmt"
 )
 
