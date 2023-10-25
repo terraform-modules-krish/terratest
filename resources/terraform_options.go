@@ -2,9 +2,9 @@ package resources
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terratest"
-	"github.com/gruntwork-io/terratest/terraform"
-	terraws "github.com/gruntwork-io/terratest/aws"
+	"github.com/terraform-modules-krish/terratest"
+	"github.com/terraform-modules-krish/terratest/terraform"
+	terraws "github.com/terraform-modules-krish/terratest/aws"
 )
 
 func CreateBaseTerratestOptions(t *testing.T, testName string, templatePath string, resourceCollection *terratest.RandomResourceCollection) *terratest.TerratestOptions {
