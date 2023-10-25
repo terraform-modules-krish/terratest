@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/terraform-modules-krish/terratest/modules/terraform"
 )
 
 // An example of how to test the simple Terraform module in examples/terraform-basic-example using Terratest.

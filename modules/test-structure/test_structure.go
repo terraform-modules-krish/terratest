@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"fmt"
 	"strings"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/files"
 )
 
 const SKIP_STAGE_ENV_VAR_PREFIX = "SKIP_"

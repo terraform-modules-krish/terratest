@@ -1,11 +1,11 @@
 package terraform
 
 import (
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/terraform-modules-krish/terratest/modules/shell"
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/terraform-modules-krish/terratest/modules/retry"
 	"strings"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 	"fmt"
 )
 

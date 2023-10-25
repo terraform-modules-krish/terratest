@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"sync/atomic"
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 )
 
 // Run a dummy HTTP server on a unique port that will return the given text. Returns the Listener for the server, the

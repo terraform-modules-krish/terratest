@@ -2,8 +2,8 @@ package test
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/packer"
-	"github.com/gruntwork-io/terratest/modules/aws"
+	"github.com/terraform-modules-krish/terratest/modules/packer"
+	"github.com/terraform-modules-krish/terratest/modules/aws"
 )
 
 // An example of how to test the Packer template in examples/packer-basic-example using Terratest.

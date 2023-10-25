@@ -2,7 +2,7 @@ package aws
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 	"fmt"
 	"github.com/aws/aws-sdk-go/service/sns"
 	"github.com/aws/aws-sdk-go/aws"
