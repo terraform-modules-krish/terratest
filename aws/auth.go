@@ -10,8 +10,8 @@ import (
 	"github.com/pquerna/otp/totp"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sts"
-	"github.com/gruntwork-io/terratest/util"
-	"github.com/gruntwork-io/gruntwork-cli/logging"
+	"github.com/terraform-modules-krish/terratest/util"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/logging"
 )
 
 // Create a new AWS session using the system environment to authenticate to AWS. For info on how to configure the system
