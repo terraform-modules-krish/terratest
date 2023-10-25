@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gruntwork-io/gruntwork-cli/files"
-	"github.com/gruntwork-io/terratest/modules/random"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/files"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
 )
 
