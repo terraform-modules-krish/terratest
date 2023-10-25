@@ -2,7 +2,7 @@ package resources
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terratest"
+	"github.com/terraform-modules-krish/terratest"
 )
 
 func CreateBaseRandomResourceCollection(t *testing.T, excludedRegions ...string) *terratest.RandomResourceCollection {

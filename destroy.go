@@ -3,8 +3,8 @@ package terratest
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/terratest/log"
-	"github.com/gruntwork-io/terratest/terraform"
+	"github.com/terraform-modules-krish/terratest/log"
+	"github.com/terraform-modules-krish/terratest/terraform"
 )
 
 // Destroy both destroys all the given elements of the RandomResourceCollection and calls terraform destroy.
