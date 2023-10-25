@@ -4,7 +4,7 @@ This folder contains a simple Terraform module that deploys a [DynamoDB](https:/
 with server-side encryption, point in time recovery and a TTL (time to live) attribute
 to demonstrate how you can use Terratest to write automated tests for your AWS Terraform code. 
 
-Check out [test/terraform_aws_dynamodb_example_test.go](/test/terraform_aws_dynamodb_example_test.go) to see how you can 
+Check out [test/terraform_aws_dynamodb_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.24.2/test/terraform_aws_dynamodb_example_test.go) to see how you can 
 test this module and validate the configuration of the parameters and options.
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
