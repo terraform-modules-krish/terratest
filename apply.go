@@ -3,9 +3,9 @@ package terratest
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/terratest/log"
-	"github.com/gruntwork-io/terratest/aws"
-	"github.com/gruntwork-io/terratest/terraform"
+	"github.com/terraform-modules-krish/terratest/log"
+	"github.com/terraform-modules-krish/terratest/aws"
+	"github.com/terraform-modules-krish/terratest/terraform"
 )
 
 // Apply handles all setup required for a Terraform Apply operation but does not perform a destroy operation or do any cleanup.

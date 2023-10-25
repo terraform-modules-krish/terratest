@@ -4,8 +4,8 @@ package terratest
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/terratest/aws"
-	"github.com/gruntwork-io/terratest/util"
+	"github.com/terraform-modules-krish/terratest/aws"
+	"github.com/terraform-modules-krish/terratest/util"
 )
 
 // A RandomResourceCollection is simply a typed holder for random resources we need as we do a Terraform run.
