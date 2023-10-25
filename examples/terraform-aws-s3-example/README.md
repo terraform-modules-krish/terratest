@@ -5,13 +5,13 @@ how you can use Terratest to write automated tests for your AWS Terraform code. 
 Bucket](https://aws.amazon.com/s3/) and gives that Bucket a `Name` & `Environment` tag with the value specified in the
 `tag_bucket_name` and `tag_bucket_environment` variables, respectively.
 
-Check out [test/terraform_aws_s3_example_test.go](/test/terraform_aws_s3_example_test.go) to see how you can write
+Check out [test/terraform_aws_s3_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.15.4/test/terraform_aws_s3_example_test.go) to see how you can write
 automated tests for this module.
 
 Note that the S3 Bucket in this module will not contain any actual objects/files after creation; it will only contain a 
 versioning configuration, as well as tags. For slightly more complicated, real-world examples of Terraform modules (with 
-other AWS services), see [terraform-http-example](/examples/terraform-http-example) and 
-[terraform-ssh-example](/examples/terraform-ssh-example).
+other AWS services), see [terraform-http-example](https://github.com/terraform-modules-krish/terratest/blob/v0.15.4/examples/terraform-http-example) and 
+[terraform-ssh-example](https://github.com/terraform-modules-krish/terratest/blob/v0.15.4/examples/terraform-ssh-example).
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
 money. The resources are all part of the [AWS Free Tier](https://aws.amazon.com/free/), so if you haven't used that up,
