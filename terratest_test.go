@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/aws"
-	"github.com/gruntwork-io/terratest/util"
+	"github.com/terraform-modules-krish/terratest/aws"
+	"github.com/terraform-modules-krish/terratest/util"
 )
 
 // This is the directory where our test fixtures are.
