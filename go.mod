@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/terratest
+module github.com/terraform-modules-krish/terratest
 
 go 1.13
 
@@ -25,7 +25,7 @@ require (
 	github.com/google/uuid v1.1.1
 	github.com/googleapis/gnostic v0.3.1 // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
-	github.com/gruntwork-io/gruntwork-cli v0.5.1
+	github.com/terraform-modules-krish/go-commons v0.5.1
 	github.com/imdario/mergo v0.3.7 // indirect
 	github.com/jstemmer/go-junit-report v0.9.1
 	github.com/magiconair/properties v1.8.1
