@@ -16,9 +16,9 @@ import (
 
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/customerrors"
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/customerrors"
+	"github.com/terraform-modules-krish/terratest/modules/files"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"
 )
