@@ -2,7 +2,7 @@ package packer
 
 import (
 	"log"
-	"github.com/gruntwork-io/terratest/shell"
+	"github.com/terraform-modules-krish/terratest/shell"
 	"regexp"
 	"errors"
 )
