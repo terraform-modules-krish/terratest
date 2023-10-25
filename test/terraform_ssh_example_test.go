@@ -4,12 +4,12 @@ import (
 	"testing"
 	"fmt"
 	"time"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/test-structure"
+	"github.com/terraform-modules-krish/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/aws"
+	"github.com/terraform-modules-krish/terratest/modules/terraform"
+	"github.com/terraform-modules-krish/terratest/modules/ssh"
+	"github.com/terraform-modules-krish/terratest/modules/retry"
+	"github.com/terraform-modules-krish/terratest/modules/test-structure"
 	"strings"
 )
 
