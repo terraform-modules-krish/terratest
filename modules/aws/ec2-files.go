@@ -3,7 +3,7 @@ package aws
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/ssh"
+	"github.com/terraform-modules-krish/terratest/modules/ssh"
 )
 
 // FetchContentsOfFileFromInstance looks up the public IP address of the EC2 Instance with the given ID, connects to
