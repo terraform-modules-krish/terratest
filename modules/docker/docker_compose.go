@@ -3,7 +3,7 @@ package docker
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/terraform-modules-krish/terratest/modules/shell"
 )
 
 type Options struct {

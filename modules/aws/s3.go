@@ -8,7 +8,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 )
 
 // Find the name of the S3 bucket in the given region with the given tag key=value

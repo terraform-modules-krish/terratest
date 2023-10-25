@@ -6,7 +6,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/iam"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 )
 
 // Get the username fo the current IAM user
