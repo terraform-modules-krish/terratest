@@ -1,7 +1,7 @@
 # Terraform AWS Network Example
 
 This folder contains a Terraform module that deploys a simple network setup to demonstrate how you can use Terratest to write automated tests for your AWS Terraform code. This module deploys two subnets within one availability zone. One subnet is public - it has a route to an internet gateway. The other subnet is private. There is a NAT gateway deployed and configured for it. 
-Check out [test/terraform_aws_network_example_test.go](/test/terraform_aws_network_example_test.go) to see how you can write automated tests for this module and verify the basic parameters of the VPC and subnets.
+Check out [test/terraform_aws_network_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.20.1/test/terraform_aws_network_example_test.go) to see how you can write automated tests for this module and verify the basic parameters of the VPC and subnets.
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
 money. The resources are all part of the [AWS Free Tier](https://aws.amazon.com/rds/free/), so if you haven't used that up,
