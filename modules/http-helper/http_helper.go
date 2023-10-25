@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/retry"
 )
 
 // HttpGet performs an HTTP GET on the given URL and return the HTTP status code and body. If there's any error, fail the test.
