@@ -4,9 +4,9 @@ import (
 	"testing"
 	"io/ioutil"
 	"github.com/stretchr/testify/assert"
-	terralog "github.com/gruntwork-io/terratest/log"
-	"github.com/gruntwork-io/terratest/files"
-	"github.com/gruntwork-io/terratest"
+	terralog "github.com/terraform-modules-krish/terratest/log"
+	"github.com/terraform-modules-krish/terratest/files"
+	"github.com/terraform-modules-krish/terratest"
 )
 
 type testData struct {
