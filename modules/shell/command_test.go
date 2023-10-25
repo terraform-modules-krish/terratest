@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 )
 
 func TestRunCommandAndGetOutput(t *testing.T) {
