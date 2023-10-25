@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 // Command is a simpler struct for defining commands than Go's built-in Cmd.

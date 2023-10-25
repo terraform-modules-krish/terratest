@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 )
 
 // Logf logs the given format and arguments, formatted using fmt.Sprintf, to stdout, along with a timestamp and information
