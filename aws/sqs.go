@@ -2,7 +2,7 @@ package aws
 
 import (
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/gruntwork-io/gruntwork-cli/logging"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/logging"
 	"github.com/google/uuid"
 	"github.com/aws/aws-sdk-go/service/sqs"
 	"github.com/aws/aws-sdk-go/aws"
