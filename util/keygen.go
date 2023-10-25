@@ -8,7 +8,7 @@ import (
 	"golang.org/x/crypto/ssh"
 	"os"
 
-	"github.com/gruntwork-io/terratest/log"
+	"github.com/terraform-modules-krish/terratest/log"
 )
 
 type keyPair struct {
