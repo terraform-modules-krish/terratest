@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/random"
+	http_helper "github.com/terraform-modules-krish/terratest/modules/http-helper"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 )
 
 func TestGetServiceEReturnsErrorForNonExistantService(t *testing.T) {
