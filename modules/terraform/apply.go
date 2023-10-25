@@ -3,7 +3,7 @@ package terraform
 import (
 	"errors"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/terraform-modules-krish/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

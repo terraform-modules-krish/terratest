@@ -3,7 +3,7 @@
 This folder contains a `Dockerfile` to build a very simple Docker image—one which contains a text file with the
 text "Hello, World"!—to demonstrate how you can use Terratest to write automated tests for your Docker images. 
 
-Check out [test/docker_hello_world_example_test.go](/test/docker_hello_world_example_test.go) to see how you can write
+Check out [test/docker_hello_world_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.28.5/test/docker_hello_world_example_test.go) to see how you can write
 automated tests for this simple Docker image.
 
 
