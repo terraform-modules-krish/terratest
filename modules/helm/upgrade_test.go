@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
+	http_helper "github.com/terraform-modules-krish/terratest/modules/http-helper"
+	"github.com/terraform-modules-krish/terratest/modules/k8s"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 )
 
 // Test that we can install, upgrade, and rollback a remote chart (e.g stable/chartmuseum)
