@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 )
 
 func TestGetPodEReturnsErrorForNonExistantPod(t *testing.T) {
