@@ -1,6 +1,6 @@
 # Gruntwork Terratest Docker Images
 
-As part of writing [Unit Tests with Terratest](/README.md#unit-tests), we recommend using [Packer](https://packer.io) to
+As part of writing [Unit Tests with Terratest](https://github.com/terraform-modules-krish/terratest/blob/v0.15.3/README.md#unit-tests), we recommend using [Packer](https://packer.io) to
 build a Docker image using the same script [provisioners](https://www.packer.io/docs/templates/provisioners.html) that
 Packer uses to configure the Amazon Machine Image you would normally build for production usage. Docker images build 10x
 faster than AMIs and launch 100x faster, reducing our cycle time while developing.
