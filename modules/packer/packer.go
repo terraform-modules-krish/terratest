@@ -8,9 +8,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/customerrors"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/terraform-modules-krish/terratest/modules/customerrors"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/shell"
 )
 
 // Options are the options for Packer.
