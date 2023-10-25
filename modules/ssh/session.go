@@ -6,9 +6,9 @@ import (
 	"io"
 	"net"
 	"reflect"
-	"github.com/gruntwork-io/terratest/modules/collections"
+	"github.com/terraform-modules-krish/terratest/modules/collections"
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 )
 
 type SshConnectionOptions struct {

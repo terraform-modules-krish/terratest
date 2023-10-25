@@ -7,7 +7,7 @@ import (
 	"crypto/x509"
 	"testing"
 	"golang.org/x/crypto/ssh"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 )
 
 // A public and private key pair that can be used for SSH access

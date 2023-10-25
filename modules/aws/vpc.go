@@ -3,7 +3,7 @@ package aws
 import (
 	"fmt"
 	"strings"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/aws"
 	"strconv"

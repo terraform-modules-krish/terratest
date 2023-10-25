@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 )
 
 // Create a new SQS queue with a random name that starts with the given prefix and return the queue URL

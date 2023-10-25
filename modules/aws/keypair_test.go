@@ -2,7 +2,7 @@ package aws
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 	"fmt"
 	"github.com/stretchr/testify/assert"
 	"github.com/aws/aws-sdk-go/service/ec2"

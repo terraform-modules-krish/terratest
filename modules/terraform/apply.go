@@ -2,10 +2,10 @@ package terraform
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/terraform-modules-krish/terratest/modules/shell"
 	"strings"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/retry"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 )
 
 // Run terraform init and apply with the given options and return stdout/stderr from the apply command. Note that this

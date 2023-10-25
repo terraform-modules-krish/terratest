@@ -2,7 +2,7 @@ package http_helper
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 	"fmt"
 	"net"
 	"github.com/stretchr/testify/assert"
