@@ -7,7 +7,7 @@ EC2 Instance allows SSH requests on the port specified by the `ssh_port` variabl
 script so that it will accept passwords for authentication.
 
 Please note that the Terraform deployment outlined in
-[the example directory for this test](/examples/terraform-ssh-password-example) will expect a default VPC to exist in
+[the example directory for this test](https://github.com/terraform-modules-krish/terratest/blob/v0.22.0/examples/terraform-ssh-password-example) will expect a default VPC to exist in
 the target region for deployments to go into.
 
 If this default VPC has been deleted from your AWS account, it can be recreated with the following command:
@@ -23,12 +23,12 @@ $ aws ec2 create-default-vpc --region eu-west-2
         ...
 ```
 
-Check out [test/terraform_ssh_password_example_test.go](/test/terraform_ssh_password_example_test.go) to see how you
+Check out [test/terraform_ssh_password_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.22.0/test/terraform_ssh_password_example_test.go) to see how you
 can write automated tests for this module.
 
 Note that the example in this module is still fairly simplified, as the EC2 Instance doesn't do a whole lot! For a more
 complicated, real-world, end-to-end example of a Terraform module and web server, see
-[terraform-packer-example](/examples/terraform-packer-example).
+[terraform-packer-example](https://github.com/terraform-modules-krish/terratest/blob/v0.22.0/examples/terraform-packer-example).
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
 money. The resources are all part of the [AWS Free Tier](https://aws.amazon.com/free/), so if you haven't used that up,
