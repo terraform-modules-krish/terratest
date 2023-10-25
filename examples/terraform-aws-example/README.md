@@ -5,12 +5,12 @@ how you can use Terratest to write automated tests for your AWS Terraform code. 
 Instance](https://aws.amazon.com/ec2/) and gives that Instance a `Name` tag with the value specified in the
 `instance_name` variable.
 
-Check out [test/terraform_aws_example_test.go](/test/terraform_aws_example_test.go) to see how you can write
+Check out [test/terraform_aws_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.22.3/test/terraform_aws_example_test.go) to see how you can write
 automated tests for this module.
 
 Note that the EC2 Instance in this module doesn't actually do anything; it just runs a Vanilla Ubuntu 16.04 AMI for
 demonstration purposes. For slightly more complicated, real-world examples of Terraform modules, see
-[terraform-http-example](/examples/terraform-http-example) and [terraform-ssh-example](/examples/terraform-ssh-example).
+[terraform-http-example](https://github.com/terraform-modules-krish/terratest/blob/v0.22.3/examples/terraform-http-example) and [terraform-ssh-example](https://github.com/terraform-modules-krish/terratest/blob/v0.22.3/examples/terraform-ssh-example).
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
 money. The resources are all part of the [AWS Free Tier](https://aws.amazon.com/free/), so if you haven't used that up,
