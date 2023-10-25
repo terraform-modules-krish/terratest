@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/terraform-modules-krish/terratest/modules/files"
 )
 
 // Install will install the selected helm chart with the provided options under the given release name. This will fail
