@@ -4,14 +4,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/log"
+	"github.com/terraform-modules-krish/terratest/log"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/aws/session"
 "errors"
 	"fmt"
-	"github.com/gruntwork-io/gruntwork-cli/logging"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/logging"
 	"bytes"
 )
 
