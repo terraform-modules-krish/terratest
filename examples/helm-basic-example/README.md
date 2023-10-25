@@ -16,7 +16,7 @@ The helm chart deploys a single replica Deployment resource given the container 
 
 See the corresponding terratest code for an example of how to test this chart:
 
-- [helm_basic_example_template_test.go](/test/helm_basic_example_template_test.go): the template tests for this chart.
+- [helm_basic_example_template_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.25/test/helm_basic_example_template_test.go): the template tests for this chart.
 <!-- TODO: Append the example with integration tests and deployment instructions once terratest has deploy test functions -->
 
 ## Running automated tests against this Helm Chart
