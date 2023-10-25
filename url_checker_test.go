@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"errors"
 	"time"
-	"github.com/gruntwork-io/terratest/test-util"
+	"github.com/terraform-modules-krish/terratest/test-util"
 )
 
 const DOMAIN_KEY = "domain"
