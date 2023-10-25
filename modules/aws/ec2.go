@@ -5,7 +5,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"fmt"
 	"testing"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 )
 
 // Get the public IP address of the given EC2 Instance in the given region
