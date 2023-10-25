@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	terratest_aws "github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/packer"
+	terratest_aws "github.com/terraform-modules-krish/terratest/modules/aws"
+	"github.com/terraform-modules-krish/terratest/modules/packer"
 	"github.com/stretchr/testify/assert"
 )
 

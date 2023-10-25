@@ -6,12 +6,12 @@ Instance](https://aws.amazon.com/ec2/) in the AWS region specified in the `aws_r
 a simple web server that listens for HTTP requests on the port specified by the `instance_port` variable and returns
 the text specified by the `instance_text` variable.
 
-Check out [test/terraform_http_example_test.go](/test/terraform_http_example_test.go) to see how you can write
+Check out [test/terraform_http_example_test.go](https://github.com/terraform-modules-krish/terratest/blob/v0.13.6/test/terraform_http_example_test.go) to see how you can write
 automated tests for this module.
 
 Note that the example in this module is still fairly simplified, as the "web server" we run just servers up a static
 `index.html`, and not in a particularly production-ready manner! For a more complicated, real-world, end-to-end
-example of a Terraform module and web server, see [terraform-packer-example](/examples/terraform-packer-example).
+example of a Terraform module and web server, see [terraform-packer-example](https://github.com/terraform-modules-krish/terratest/blob/v0.13.6/examples/terraform-packer-example).
 
 **WARNING**: This module and the automated tests for it deploy real resources into your AWS account which can cost you
 money. The resources are all part of the [AWS Free Tier](https://aws.amazon.com/free/), so if you haven't used that up,
