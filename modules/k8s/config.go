@@ -11,8 +11,8 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/tools/clientcmd/api"
 
-	"github.com/gruntwork-io/terratest/modules/environment"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/terraform-modules-krish/terratest/modules/environment"
+	"github.com/terraform-modules-krish/terratest/modules/logger"
 )
 
 // LoadConfigFromPath will load a ClientConfig object from a file path that points to a location on disk containing a
